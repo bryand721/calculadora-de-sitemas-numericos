@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    
+</head> 
+<body>
+    <link rel="stylesheet" href="fondo.css">
+    
+    <div class="container"> 
+        <div class="file">
+            <h1>calculadora de unidades</h1>
+            <span>convertir de</span>
+        <select name="unidad1" id="unidad1">
+            <option value="">Seleccione</option> 
+             
+            <option value="binario">Binario</option> 
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="decimal">Decimal</option>
+            <option value="octal">Octal</option>         
+        </select>
+        <span> a </span>
+        <select name="unidad2" id="unidad2">           
+            <option value="">Seleccione</option> 
+
+            <option value="binario">Binario</option> 
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="decimal">Decimal</option>
+            <option value="octal">Octal</option>
+        </select>
+        </div>
+        <input type="number" id="valor1" placeholder="valor">
+        <div class="resultado1" id="resultado1">
+            - - 
+        </div>  
+   
+    </div>
+    
+   <script src="comversor.js"></script>
+</body>
+</html>
